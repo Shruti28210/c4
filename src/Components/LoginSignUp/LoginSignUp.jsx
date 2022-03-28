@@ -8,15 +8,18 @@ export const LoginSignUp = () => {
        name : "",
        password:"",
        location:"",
-      //  interests:[
-      //   technology:"technology",
-
-      //  ],
+       technology:"technology",
+       food:"food",
+       movies:"movies",
+       culture:"culture",
+       art:"art",
+       drama:"drama",
        image:"",
        subscribed:"",
   }
   const [userdata,setuserdata] = React.useState(inisial_state);
-  const {name,password,location,interests,image,} = userdata
+
+  const {name,password,location,technology,food,movies,culture,art,drama,image,} = userdata
 
 
   console.log(userdata)
